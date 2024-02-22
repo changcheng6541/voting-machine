@@ -15,7 +15,7 @@ input.onButtonPressed(Button.B, function () {
 let second_persons_vote = 0
 let People_has_the_most_vote = ""
 let First_persons_vote = 0
-console.log("Script created by Cheng, edited by Ray, and tested by Lucas Chen")
+console.log("Created by Cheng, Ray and Lucas Chen")
 basic.forever(function () {
     if (First_persons_vote > second_persons_vote) {
         People_has_the_most_vote = "First person has the most vote"
