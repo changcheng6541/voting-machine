@@ -18,10 +18,10 @@ def on_button_pressed_b():
     print("First person's vote is " + ("" + ("" + ("" + ("" + str(First_persons_vote))))) + " and " + "second person's vote is " + ("" + ("" + ("" + ("" + str(second_persons_vote))))))
 input.on_button_pressed(Button.B, on_button_pressed_b)
 
-second_persons_vote = 0
-People_has_the_most_vote = ""
 First_persons_vote = 0
-print("Script created by Cheng, edited by Ray, and tested by Lucas Chen")
+People_has_the_most_vote = ""
+second_persons_vote = 0
+print("Created by Cheng, Ray and Lucas Chen")
 
 def on_forever():
     global People_has_the_most_vote

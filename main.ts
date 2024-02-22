@@ -12,9 +12,9 @@ input.onButtonPressed(Button.B, function () {
     second_persons_vote += 1
     console.log("First person's vote is " + ("" + ("" + ("" + ("" + First_persons_vote)))) + " and " + "second person's vote is " + ("" + ("" + ("" + ("" + second_persons_vote)))))
 })
-let second_persons_vote = 0
-let People_has_the_most_vote = ""
 let First_persons_vote = 0
+let People_has_the_most_vote = ""
+let second_persons_vote = 0
 console.log("Created by Cheng, Ray and Lucas Chen")
 basic.forever(function () {
     if (First_persons_vote > second_persons_vote) {
